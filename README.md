@@ -89,12 +89,12 @@ Before writing any code, every file must start with the standard 42 header. `nor
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: maaugust <maaugust@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/27 11:33:28 by maaugust          #+#    #+#             */
-/*   Updated: 2025/02/27 12:40:55 by maaugust         ###   ########.fr       */
+/*   Created: 2025/03/01 23:17:04 by maaugust          #+#    #+#             */
+/*   Updated: 2025/03/04 14:20:20 by maaugust         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 ```
