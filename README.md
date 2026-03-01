@@ -50,10 +50,20 @@ Unlike Shell scripts, C programs must be compiled before they can be executed. F
 To make testing incredibly easy while avoiding "undefined reference" linker errors, the **[`tester.c`](tester.c)** file in the root directory uses **C Preprocessor Macros** (`#ifdef`). This allows you to selectively compile and test only the exercises you want.
 
 1. **Clone the repository:**
+   You can clone this module directly, or pull the entire 42 Piscine parent repository which includes this module as a submodule.
+
+   **Option A: Clone this module directly**
    ```bash
-   git clone <your_repository_link>
+   git clone git@github.com:rfs-hybrid-42-piscine/C-04.git C-04
+   cd C-04
+   ```
+
+   **Option B: Clone the parent repository (with submodules)**
+   ```bash
+   git clone --recurse-submodules git@github.com:rfs-hybrid/42-Piscine.git 42-Piscine
    cd 42-Piscine/C-04
    ```
+   *(Note: The `--recurse-submodules` flag ensures all nested module repositories are populated immediately.)*
 
 2. **Test a Single Exercise:**
    Pass the corresponding `-D EX**` flag to activate that specific test block inside **[`tester.c`](tester.c)**.
